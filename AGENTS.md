@@ -39,6 +39,10 @@ Write code that is **accessible, performant, type-safe, and maintainable**. Focu
 - Use `async/await` syntax instead of promise chains for better readability
 - Handle errors appropriately in async code with try-catch blocks
 - Don't use async functions as Promise executors
+- **Data Fetching**:
+  - Use **Axios** (`utils/api.ts`) for all HTTP requests.
+  - Use **TanStack React Query** for data fetching hooks (queries/mutations).
+  - Use **TanStack React Form** for complex form handling.
 
 ### React & JSX
 
@@ -69,6 +73,15 @@ Write code that is **accessible, performant, type-safe, and maintainable**. Focu
 - Use early returns to reduce nesting
 - Prefer simple conditionals over nested ternary operators
 - Group related code together and separate concerns
+
+### Styling & Responsive Design
+
+- **Styling**:
+  - Use **Tailwind CSS** for utility classes.
+  - Use Tailwind CSS v4 standardized best practices (e.g., `bg-background` instead of `bg-[var(--background)]`).
+  - **Always** use the `cn()` utility function (from `@/utils/utils`) when applying `className` props to ensure consistency and mergeability.
+- **Responsive Design**: Utilize Tailwind's responsive utilities (`sm:`, `md:`, `lg:`) for mobile-first design.
+- **Mobile Optimization**: Ensure the app is mobile-friendly with touch gestures and responsive layouts.
 
 **Structure**
 
