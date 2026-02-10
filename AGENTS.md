@@ -93,6 +93,12 @@ Write code that is **accessible, performant, type-safe, and maintainable**. Focu
 - `public/`: static assets.
 - `proxy.ts`: local proxy/config (if used).
 
+**Fragment Extraction Rule**
+
+- Create a fragment for every section of a page.
+- Put the fragment inside `features/[feature-name]/fragments/[section-name]`.
+- Do not create UI inside `page.tsx` file. `page.tsx` file only call fragment.
+
 ### Security
 
 - Add `rel="noopener"` when using `target="_blank"` on links
