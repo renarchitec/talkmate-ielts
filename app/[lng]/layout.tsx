@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
-import { languages } from "../../i18n/settings";
+import { routing } from "@/i18n/routing";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 export async function generateStaticParams() {
-  return languages.map((lng) => ({ lng }));
+  return routing.locales.map((lng) => ({ lng }));
 }
 
 export default async function RootLayout({
@@ -31,12 +33,16 @@ export default async function RootLayout({
   params: Promise<{ lng: string }>;
 }>) {
   const { lng } = await params;
+  const messages = await getMessages();
+
   return (
     <html lang={lng}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ReactQueryProvider>{children}</ReactQueryProvider>
+        <NextIntlClientProvider messages={messages}>
+          <ReactQueryProvider>{children}</ReactQueryProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
