@@ -70,6 +70,16 @@ Write code that is **accessible, performant, type-safe, and maintainable**. Focu
 - Prefer simple conditionals over nested ternary operators
 - Group related code together and separate concerns
 
+**Structure**
+
+- `app/`: Next.js app router pages/layouts.
+- `features/`: feature modules and UI.
+- `core/`: shared domain logic.
+- `utils/`: helpers.
+- `i18n/`: locale and translation setup.
+- `public/`: static assets.
+- `proxy.ts`: local proxy/config (if used).
+
 ### Security
 
 - Add `rel="noopener"` when using `target="_blank"` on links
