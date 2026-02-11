@@ -1,7 +1,12 @@
+"use client";
+
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Button } from "@/core/ui/components/ui/button";
 
 export function FinalCTA() {
+  const t = useTranslations("landing.final_cta");
+
   return (
     <section className="relative overflow-hidden px-6 py-20 text-center sm:px-12 lg:py-32">
       {/* Background decoration */}
@@ -21,14 +26,14 @@ export function FinalCTA() {
 
         <div className="relative z-10">
           <h2 className="font-extrabold text-4xl leading-tight sm:text-5xl">
-            Know Your Real IELTS Band Before the Real Test.
+            {t("headline")}
           </h2>
           <div className="mt-8 flex justify-center">
             <Button
               className="h-16 rounded-full bg-chart-4 px-12 font-bold text-primary text-xl shadow-xl transition-all hover:-translate-y-1 hover:bg-chart-4/90 hover:shadow-2xl hover:shadow-chart-4/20"
               size="lg"
             >
-              Start IELTS Mock Test
+              {t("cta")}
             </Button>
           </div>
         </div>

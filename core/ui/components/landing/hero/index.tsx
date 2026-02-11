@@ -1,29 +1,22 @@
+"use client";
+
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Button } from "@/core/ui/components/ui/button";
 
-interface HeroProps {
-  headline: string;
-  subheadline: string;
-  primaryCtaLabel: string;
-  secondaryCtaLabel?: string;
-}
+export function Hero() {
+  const t = useTranslations("landing.hero");
 
-export function Hero({
-  headline,
-  subheadline,
-  primaryCtaLabel,
-  secondaryCtaLabel,
-}: HeroProps) {
   return (
     <section className="relative overflow-hidden px-6 py-20 lg:py-32">
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
         <div className="space-y-8 text-center lg:text-left">
           <div className="relative z-10">
             <h1 className="bg-gradient-to-r from-primary to-secondary bg-clip-text font-extrabold text-5xl text-transparent leading-tight sm:text-7xl">
-              {headline}
+              {t("headline")}
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-muted-foreground text-xl sm:text-2xl lg:mx-0">
-              {subheadline}
+              {t("subheadline")}
             </p>
           </div>
 
@@ -32,17 +25,15 @@ export function Hero({
               className="h-14 rounded-full bg-destructive px-10 font-bold text-lg text-white shadow-xl transition-all hover:-translate-y-1 hover:bg-destructive/90 hover:shadow-2xl hover:shadow-destructive/20"
               size="lg"
             >
-              {primaryCtaLabel}
+              {t("primary_cta")}
             </Button>
-            {secondaryCtaLabel && (
-              <Button
-                className="h-14 rounded-full border-2 border-primary/20 bg-white/50 px-10 font-semibold text-lg text-primary backdrop-blur-sm transition-all hover:border-primary/40 hover:bg-primary/5"
-                size="lg"
-                variant="outline"
-              >
-                {secondaryCtaLabel}
-              </Button>
-            )}
+            <Button
+              className="h-14 rounded-full border-2 border-primary/20 bg-white/50 px-10 font-semibold text-lg text-primary backdrop-blur-sm transition-all hover:border-primary/40 hover:bg-primary/5"
+              size="lg"
+              variant="outline"
+            >
+              {t("secondary_cta")}
+            </Button>
           </div>
         </div>
 

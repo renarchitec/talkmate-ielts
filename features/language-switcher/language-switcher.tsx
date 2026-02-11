@@ -35,16 +35,16 @@ export function LanguageSwitcher() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          className="h-8 w-8 overflow-hidden rounded-full border border-border/50 bg-background/50 p-0 shadow-sm backdrop-blur-sm transition-transform hover:scale-105 hover:bg-white"
+          className="h-6 w-6 overflow-hidden rounded-full border border-border/50 bg-background/50 p-0 shadow-sm backdrop-blur-sm transition-transform hover:scale-105 hover:bg-white"
           size="icon"
           variant="ghost"
         >
           <Image
             alt={t(`languages.${locale}`)}
             className="h-full w-full object-cover"
-            height={32}
+            height={24}
             src={getFlagUrl(locale)}
-            width={32}
+            width={24}
           />
           <span className="sr-only">{t("title")}</span>
         </Button>

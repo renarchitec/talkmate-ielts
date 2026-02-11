@@ -20,5 +20,141 @@
       "es": "Spanyol",
       "id": "Indonesia"
     }
+  },
+  "landing": {
+    "navbar": {
+      "how_it_works": "Cara Kerja",
+      "features": "Fitur",
+      "pricing": "Harga",
+      "faq": "FAQ",
+      "get_started": "Mulai Sekarang"
+    },
+    "hero": {
+      "headline": "Latihan IELTS Nyata. Penilaian Manusia Asli.",
+      "subheadline": "Simulasi IELTS online dengan Writing & Speaking dinilai panelist berpengalaman.",
+      "primary_cta": "Mulai Mock Test IELTS",
+      "secondary_cta": "Coba Tes Latihan"
+    },
+    "how_it_works": {
+      "title": "Cara Kerja",
+      "steps": {
+        "register": {
+          "title": "Daftar & Pilih Tes",
+          "description": "Buat akun Anda dan pilih paket tes."
+        },
+        "simulation": {
+          "title": "Kerjakan Simulasi IELTS",
+          "description": "Kerjakan simulasi penuh dalam kondisi waktu yang ditentukan."
+        },
+        "auto_scoring": {
+          "title": "Skor Otomatis Listening & Reading",
+          "description": "Dapatkan hasil instan untuk bagian objektif."
+        },
+        "human_review": {
+          "title": "Review Manusia untuk Writing & Speaking",
+          "description": "Review ahli untuk bagian subjektif."
+        },
+        "results": {
+          "title": "Skor & Feedback Terkirim",
+          "description": "Terima skor dan feedback terperinci."
+        }
+      }
+    },
+    "features": {
+      "title": "Fitur Utama",
+      "items": {
+        "full_mock": {
+          "title": "Mock Test IELTS Penuh",
+          "description": "Rasakan format tes lengkap dalam kondisi waktu nyata."
+        },
+        "practice_skill": {
+          "title": "Latihan per Skill",
+          "description": "Fokus pada area tertentu seperti Reading, Listening, Writing, atau Speaking."
+        },
+        "human_review": {
+          "title": "Writing & Speaking Direview Manusia",
+          "description": "Dapatkan skor akurat dan feedback detail dari penguji asli."
+        },
+        "detailed_feedback": {
+          "title": "Detail Band Score & Feedback",
+          "description": "Pahami kekuatan dan kelemahan Anda dengan laporan komprehensif."
+        },
+        "progress_tracking": {
+          "title": "Pelacakan Progres",
+          "description": "Pantau peningkatan Anda dari waktu ke waktu dengan grafik intuitif."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Pratinjau Harga",
+      "cta": "Pilih Paket",
+      "plans": {
+        "subscription": {
+          "name": "Langganan Bulanan",
+          "price": "Rp 199.000",
+          "features": ["Akses Penuh", "Tes Tak Terbatas", "Pelacakan Progres"]
+        },
+        "pay_per_test": {
+          "name": "Bayar per Tes",
+          "price": "Rp 49.000",
+          "features": ["Akses Sekali", "Mock Test Penuh", "Laporan Dasar"]
+        },
+        "addon": {
+          "name": "Add-on Writing / Speaking",
+          "price": "Rp 99.000",
+          "features": ["Review Ahli", "Feedback Detail", "Prediksi Band Score"]
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "questions": {
+        "official": {
+          "question": "Apakah ini IELTS resmi?",
+          "answer": "Platform ini tidak berafiliasi dengan IELTS™. Ini menyediakan tes mock untuk latihan."
+        },
+        "examiners": {
+          "question": "Siapa yang menilai Writing & Speaking?",
+          "answer": "Tes Writing dan Speaking direview oleh panelis/penguji berpengalaman."
+        },
+        "duration": {
+          "question": "Berapa lama hasil keluar?",
+          "answer": "Skor Listening dan Reading instan. Feedback Writing dan Speaking diberikan dalam 24-48 jam."
+        },
+        "mobile": {
+          "question": "Bisa diakses dari mobile?",
+          "answer": "Ya, platform kami sepenuhnya responsif dan dapat diakses di perangkat mobile."
+        },
+        "free_test": {
+          "question": "Apakah ada tes gratis?",
+          "answer": "Ya, kami menyediakan satu tes simulasi gratis untuk setiap pengguna baru agar dapat mencoba platform kami."
+        },
+        "writing_criteria": {
+          "question": "Bagaimana sistem penilaian Writing?",
+          "answer": "Penilaian Writing dilakukan berdasarkan kriteria resmi IELTS: Task Achievement, Coherence & Cohesion, Lexical Resource, dan Grammatical Range & Accuracy."
+        },
+        "cancellation": {
+          "question": "Apakah saya bisa membatalkan langganan?",
+          "answer": "Tentu, Anda dapat membatalkan langganan kapan saja melalui menu pengaturan akun tanpa biaya tambahan."
+        }
+      }
+    },
+    "final_cta": {
+      "headline": "Ketahui Band IELTS Asli Anda Sebelum Tes Sebenarnya.",
+      "cta": "Mulai Mock Test IELTS"
+    },
+    "footer": {
+      "tagline": "Latihan IELTS Nyata. Penilaian Manusia Asli. Persiapkan diri dengan percaya diri.",
+      "platform": "Platform",
+      "legal": "Legal",
+      "links": {
+        "about": "Tentang",
+        "contact": "Kontak",
+        "terms": "Syarat & Privasi",
+        "disclaimer": "Disclaimer"
+      },
+      "copyright": "© {year} Talkmate IELTS. Hak cipta dilindungi.",
+      "disclaimer_text": "Platform ini tidak berafiliasi dengan IELTS™"
+    }
   }
 }

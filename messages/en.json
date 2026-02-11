@@ -20,5 +20,145 @@
       "es": "Spanish",
       "id": "Indonesian"
     }
+  },
+  "landing": {
+    "navbar": {
+      "how_it_works": "How It Works",
+      "features": "Features",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "get_started": "Get Started"
+    },
+    "hero": {
+      "headline": "Real IELTS Practice. Real Human Scoring.",
+      "subheadline": "Online IELTS simulation with Writing & Speaking graded by experienced panelists.",
+      "primary_cta": "Start IELTS Mock Test",
+      "secondary_cta": "Try Practice Test"
+    },
+    "how_it_works": {
+      "title": "How It Works",
+      "steps": {
+        "register": {
+          "title": "Register & Choose Test",
+          "description": "Create your account and select a test package."
+        },
+        "simulation": {
+          "title": "Take IELTS Simulation",
+          "description": "Take the full simulation under timed conditions."
+        },
+        "auto_scoring": {
+          "title": "Listening & Reading Auto Scoring",
+          "description": "Get instant results for objective sections."
+        },
+        "human_review": {
+          "title": "Writing & Speaking Human Review",
+          "description": "Expert review for subjective sections."
+        },
+        "results": {
+          "title": "Score & Feedback Delivered",
+          "description": "Receive detailed score and feedback."
+        }
+      }
+    },
+    "features": {
+      "title": "Key Features",
+      "items": {
+        "full_mock": {
+          "title": "Full IELTS Mock Test",
+          "description": "Experience the complete test format under timed conditions."
+        },
+        "practice_skill": {
+          "title": "Practice per Skill",
+          "description": "Focus on specific areas like Reading, Listening, Writing, or Speaking."
+        },
+        "human_review": {
+          "title": "Human-reviewed Writing & Speaking",
+          "description": "Get accurate scores and detailed feedback from real examiners."
+        },
+        "detailed_feedback": {
+          "title": "Detailed Band Score & Feedback",
+          "description": "Understand your strengths and weaknesses with comprehensive reports."
+        },
+        "progress_tracking": {
+          "title": "Progress Tracking",
+          "description": "Monitor your improvement over time with intuitive charts."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Pricing Preview",
+      "cta": "Choose Plan",
+      "plans": {
+        "subscription": {
+          "name": "Monthly Subscription",
+          "price": "IDR 199,000",
+          "features": ["Full Access", "Unlimited Tests", "Progress Tracking"]
+        },
+        "pay_per_test": {
+          "name": "Pay-per-test",
+          "price": "IDR 49,000",
+          "features": ["One-time Access", "Full Mock Test", "Basic Report"]
+        },
+        "addon": {
+          "name": "Add-on Writing / Speaking",
+          "price": "IDR 99,000",
+          "features": [
+            "Expert Review",
+            "Detailed Feedback",
+            "Band Score Prediction"
+          ]
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "questions": {
+        "official": {
+          "question": "Is this official IELTS?",
+          "answer": "This platform is not affiliated with IELTS™. It provides mock tests for practice."
+        },
+        "examiners": {
+          "question": "Who grades Writing & Speaking?",
+          "answer": "Writing and Speaking tests are reviewed by experienced panelists/examiners."
+        },
+        "duration": {
+          "question": "How long does it take to get results?",
+          "answer": "Listening and Reading scores are instant. Writing and Speaking feedback is provided within 24-48 hours."
+        },
+        "mobile": {
+          "question": "Can I access it on mobile?",
+          "answer": "Yes, our platform is fully responsive and accessible on mobile devices."
+        },
+        "free_test": {
+          "question": "Is there a free test?",
+          "answer": "Yes, we provide one free simulation test for every new user to try our platform."
+        },
+        "writing_criteria": {
+          "question": "How is Writing graded?",
+          "answer": "Writing grading is based on official IELTS criteria: Task Achievement, Coherence & Cohesion, Lexical Resource, and Grammatical Range & Accuracy."
+        },
+        "cancellation": {
+          "question": "Can I cancel my subscription?",
+          "answer": "Sure, you can cancel your subscription anytime via account settings without extra fees."
+        }
+      }
+    },
+    "final_cta": {
+      "headline": "Know Your Real IELTS Band Before the Real Test.",
+      "cta": "Start IELTS Mock Test"
+    },
+    "footer": {
+      "tagline": "Real IELTS Practice. Real Human Scoring. Prepare with confidence.",
+      "platform": "Platform",
+      "legal": "Legal",
+      "links": {
+        "about": "About",
+        "contact": "Contact",
+        "terms": "Terms & Privacy",
+        "disclaimer": "Disclaimer"
+      },
+      "copyright": "© {year} Talkmate IELTS. All rights reserved.",
+      "disclaimer_text": "This platform is not affiliated with IELTS™"
+    }
   }
 }

@@ -3,19 +3,15 @@
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Button } from "@/core/ui/components/ui/button";
 import { LanguageSwitcher } from "@/features/language-switcher/language-switcher";
+import { NAV_LINKS } from "./constants";
 
 export function Navbar() {
+  const t = useTranslations("landing.navbar");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const navLinks = [
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "Features", href: "#features" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "FAQ", href: "#faq" },
-  ];
 
   return (
     <nav className="sticky top-0 z-50 w-full border-border/40 border-b bg-white/80 backdrop-blur-md">
@@ -38,13 +34,13 @@ export function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden items-center gap-8 md:flex">
-          {navLinks.map((link) => (
+          {NAV_LINKS.map((link) => (
             <Link
               className="font-medium text-muted-foreground text-sm transition-colors hover:text-primary"
               href={link.href}
-              key={link.label}
+              key={link.key}
             >
-              {link.label}
+              {t(link.key)}
             </Link>
           ))}
           <div className="flex items-center gap-4">
@@ -53,7 +49,7 @@ export function Navbar() {
               className="h-10 rounded-full bg-primary px-6 font-bold text-white shadow-lg transition-transform hover:-translate-y-0.5 hover:bg-primary/90"
               size="sm"
             >
-              Get Started
+              {t("get_started")}
             </Button>
           </div>
         </div>
@@ -80,18 +76,18 @@ export function Navbar() {
       {isMenuOpen && (
         <div className="absolute top-16 left-0 w-full border-border/40 border-b bg-white p-6 shadow-xl md:hidden">
           <div className="flex flex-col gap-6">
-            {navLinks.map((link) => (
+            {NAV_LINKS.map((link) => (
               <Link
                 className="font-medium text-lg text-muted-foreground transition-colors hover:text-primary"
                 href={link.href}
-                key={link.label}
+                key={link.key}
                 onClick={() => setIsMenuOpen(false)}
               >
-                {link.label}
+                {t(link.key)}
               </Link>
             ))}
             <Button className="mt-2 h-12 w-full rounded-full bg-primary font-bold text-white shadow-lg active:scale-95">
-              Get Started
+              {t("get_started")}
             </Button>
           </div>
         </div>

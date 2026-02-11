@@ -99,6 +99,12 @@ Write code that is **accessible, performant, type-safe, and maintainable**. Focu
 - Put the fragment inside `features/[feature-name]/fragments/[section-name]`.
 - Do not create UI inside `page.tsx` file. `page.tsx` file only call fragment.
 
+**Constants Extraction Rule**
+
+- Extract array items or constants for each section into a separate `constants.ts` file.
+- Colocate `constants.ts` with the component, e.g., `components/landing/[section]/constants.ts` or `features/[feature]/[section]/constants.ts`.
+- Use `constants.ts` for data structure (keys, icons, non-translatable data) and fetch content via i18n keys.
+
 ### Security
 
 - Add `rel="noopener"` when using `target="_blank"` on links
