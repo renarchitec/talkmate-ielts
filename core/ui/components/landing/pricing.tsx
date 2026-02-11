@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/core/ui/components/ui/button";
 import { cn } from "@/utils/utils";
 
 interface Plan {

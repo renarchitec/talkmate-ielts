@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import { ReactQueryProvider } from "@/components/providers/react-query-provider";
+import { ReactQueryProvider } from "@/core/ui/components/providers/react-query-provider";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
